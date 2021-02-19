@@ -1,0 +1,37 @@
+/* .primero{
+  background-color: darkgoldenrod;
+  border: 3px solid teal;
+  border-radius: 5px;
+  box-sizing: boder-box;
+  display: inline;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+}
+
+.segundo {
+  border-color: coral;
+  border-style: solid;
+  border-width: 3px;
+  height: 200px;
+  width: 200px;
+} */
+
+.Cajita {
+  border: 1px;
+  border-color: #023e8a;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 5px;
+  text-align: center;
+  width: 210px;
+}
+
+.imagen {
+  border: 5px;
+  border-color: #0077b6;
+  border-style: solid;
+  width: 200px;
+  border-radius: 100%;
+}

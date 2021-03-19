@@ -1,0 +1,31 @@
+.logo {
+  height: 100px;
+  width: 100px;
+}
+header {
+  background-color: #2a9134;
+  margin: 0;
+}
+
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4b/Blackjack_board.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+p {
+  color: white;
+  font-size: 40px;
+}
+
+.carta {
+  left: 100px;
+  margin-left: -75px;
+  position: relative;
+  width: 150px;
+}
+
+#cartasJugador {
+  height: 250px;
+}

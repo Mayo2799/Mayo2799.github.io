@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego 21</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-center">
+        <img class="logo" src="https://www.dafont.com/forum/attach/orig/1/2/127066.png" alt="Icono que dice blackjack">
+    </header>
+    <main>
+        <div class="text-center mt-2">
+            <button id="btnNuevo" class="btn btn-success">Iniciar Juego</button>
+            <button id="btnPedir" class="btn btn-primary ml-2" disabled>Pedir cartas</button>
+            <button id="btnDetenerse" class="btn btn-warning ml-2" disabled>Detenerse</button>
+            <button id="btnSalir" class="btn btn-danger ml-2" disabled>Salir</button>
+        </div>
+
+        <div class="row container">
+            <div class="col">
+                <p id="nomJugador"> Jugador - <span>0</span> 
+                    <button id="btnNombre" class="btn bt-sm btn-info">Cambiar nombre</button></p>
+                <div id="cartasJugador"></div>
+            </div>
+        </div>
+
+        <div class="row container">
+            <div class="col">
+                <p>Máquina PC - <span>0</span> </p>
+                <div id="cartasPC"></div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

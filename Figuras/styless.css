@@ -1,0 +1,54 @@
+.circulo {
+  background-color: aquamarine;
+  height: 200px;
+  margin: 10px;
+  transition: 2s;
+  width: 200px;
+}
+.circulo:hover {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.rectangulo {
+  background-color: royalblue;
+  height: 200px;
+  margin: 10px;
+  transition: 2s;
+  width: 200px;
+}
+.rectangulo:hover {
+  background-color: salmon;
+  width: 350px;
+}
+
+.triangulo {
+  background-color: crimson;
+  height: 200px;
+  margin: 10px;
+  transition: 2s;
+  width: 200px;
+}
+.triangulo:hover {
+  background-color: white;
+  border-bottom: 200px solid chartreuse;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  height: 0px;
+  width: 0px;
+}
+
+/* .cuadros {
+  background-color: mediumpurple;
+  height: 50px;
+  margin: 10px;
+  transition: 2s;
+  width: 50px;
+}
+.cuadros:hover {
+  height: 100px;
+  width: 100px;
+}
+div:nth-of-type(2) {
+  background-color: midnightblue;
+} */

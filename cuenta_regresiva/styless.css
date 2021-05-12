@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url("https://www.enter.co/wp-content/uploads/2014/04/hbd.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.contenedor {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.contador {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  padding: 30px;
+}
+h2 {
+  font-size: 30px;
+}
+
+#dias,
+#horas,
+#minutos,
+#segundos {
+  font-size: 50px;
+}

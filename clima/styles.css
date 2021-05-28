@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  background: linear-gradient(
+    to right,
+    #ffd400,
+    #ffd819,
+    #ffdd32,
+    #ffe14c,
+    #fff2b2,
+    #fffae5
+  );
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.contenedor .buscador {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 6%;
+  width: 100%;
+}
+.contenedor input {
+  background: #ffffff50;
+  border-radius: 25px 10px;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  margin: 0 20px;
+  outline: none;
+  padding: 0 20px;
+  width: 300px;
+}
+
+.contenedor input::placeholder {
+  color: #ffffff;
+}
+
+.contenedor input[type="submit"] {
+  background: #fff;
+  color: #ffd400;
+  cursor: pointer;
+  font-weight: 27px;
+  width: 150px;
+}
+
+.iconoClima {
+  height: 300px;
+  position: absolute;
+  right: 20%;
+  top: 27%;
+  width: 300px;
+}
+
+.paisCiudad {
+  font-size: 40px;
+  left: 15%;
+  position: absolute;
+  top: 40%;
+}
+
+.temperatura {
+  bottom: 35%;
+  font-size: 40px;
+  left: 43%;
+  position: absolute;
+}
+
+.temperatura b {
+  color: #e2e2e290;
+}
+
+.descripcion {
+  bottom: 23%;
+  font-size: 30px;
+  left: 43%;
+  position: absolute;
+}
+
+.contenedor ul {
+  bottom: 3%;
+  left: 3%;
+  position: absolute;
+}
+
+.contenedor ul li {
+  font-size: 22px;
+  list-style: none;
+  margin: 20px 0;
+}

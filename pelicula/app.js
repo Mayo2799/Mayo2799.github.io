@@ -12,7 +12,7 @@ botonBuscar.addEventListener('click', function (event) {
 });
 
 const cargarPeliculas = (pelicula) => {
-    contenedorPeliculas.innerHTML = '';
+    limpiarPantalla();
     const url = `https://api.themoviedb.org/3/search/movie?api_key=${APIKEY}&query=${pelicula}`;
     fetch(url).then(res => res.json()).then( datos => {
         // console.log(datos);
@@ -34,4 +34,8 @@ const cargarPeliculas = (pelicula) => {
             contenedorPeliculas.appendChild(peliculaDiv);
         }
     });
+}
+
+const limpiarPantalla = () => {
+    contenedorPeliculas.innerHTML = '';
 }

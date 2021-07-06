@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: #faebd7;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.principal {
+  display: flex;
+  width: 90vw;
+}
+
+.imagenes {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  flex: 0.5;
+  height: 80vh;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.9s ease-in;
+}
+
+.imagenes p {
+  bottom: 20px;
+  font-size: 50px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+}
+
+.imagenes.activa {
+  flex: 5;
+  transition: opacity 0.3s ease-in 0.5s;
+}
+
+.imagenes.activa p {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+.imagenes.tamaño {
+  height: 90vh;
+  width: 90vw;
+}
+
+p {
+  font-family: "Ballet", cursive;
+}
